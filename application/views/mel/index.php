@@ -33,7 +33,7 @@
 
        </div>
        <div class="span4 date_banner">
-          <p>Семинар, 17 апреля 2014 года</p> 
+          <p>Семинар, 24-25 июля 10.00-16.00</p> 
        </div>
        <div class="span4">
        </div>
@@ -392,8 +392,13 @@
 <div class="row-fluid">
     <!-- <div class="span1">
      </div>-->
-     <div class="span12 center marg_bot"> 
-        <strong>Стоимость участия в семинаре "Как выжать больше из имеющегося отдела продаж?" <font class="blue_label2">500 рублей</font></strong>
+     <div class="span12 center "> 
+        <strong>Стоимость участия в семинаре "Как выжать больше из имеющегося отдела продаж?" </strong>
+     </div>
+     <div class="span12 center marg_bot">
+      <div class="blue_label2">до 20 июля-10.000 рублей</div>
+      <div class="blue_label2">21-23 июля-12.000 рублей</div>
+      <div class="blue_label2">24-25 июля-15.000 рублей</div>
      </div>
      <!--<div class="span1">
      </div>-->

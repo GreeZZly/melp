@@ -44,6 +44,7 @@ class Main extends CI_Controller {
 		{
 			$data = array('name' => $this->input->post('name'),
 							'surname' => $this->input->post('surname'),
+							'type' => 'individual',
 							'email' => $this->input->post('email'),
 							'phone' => $this->input->post('phone')
 				);
@@ -55,6 +56,10 @@ class Main extends CI_Controller {
 			// $config['charset'] = 'iso-8859-1';
 			// $config['wordwrap'] = FALSE;
 			// $config['newline'] = TRUE;
+
+			$this->load->library('apiforcrm');
+			// $order = array('customer' => $data, 'order'=>array('description'=>json_encode(array($data['order']))), 'reg' => false, 'phase'=>'cart' );
+			$answer  = $this->apiforcrm->setApi('17df5bc74d8799b4c676094a7286a5519cd02a0a')->setCaptured($data);
 
 			$this->email->initialize($config);
 
